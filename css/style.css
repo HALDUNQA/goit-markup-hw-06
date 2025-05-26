@@ -92,25 +92,17 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 156px;
+  text-decoration: none;
 }
 
 .web {
   font-family: var(--second-family);
   color: var(--iris);
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 21px;
-  letter-spacing: 3%;
 }
 
 .studio-head {
   color: var(--navy-blue);
-  font-size: 18px;
-  font-weight: 700px;
-  line-height: 21px;
-  font-weight: bold;
-  font-family: var(--Raleway);
-  text-decoration: none;
+
 }
 
 .studio-frame {
@@ -199,12 +191,6 @@ img {
   background-blend-mode: darken;
 
 }
-
-.section-modal {
-  position: relative;
-
-}
-
 
 .effective {
   margin-top: 188px;
@@ -376,7 +362,7 @@ img {
 
 }
 
-.image-portfolio {
+.image-part-portfolio {
   width: 360px;
   height: 300px;
   position: relative;
@@ -902,7 +888,6 @@ fill: var(--white);
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);

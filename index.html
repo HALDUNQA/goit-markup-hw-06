@@ -17,83 +17,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+         <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
+    <script src="./index.js" defer></script>
   </head>
 
-  <body class="body">
+  <body>
+   
+       <button id="hamburger-open-button">OPEN MENU</button>
 
-    <!-- HAMBURGER MENU -->
-    <div class="hamburger-menu">
-      <ul class="hamburger-list">
-        <li class="hamburger-name1">Studio</li>
-        <li class="hamburger-name2">Portfolio</li>
-        <li class="hamburger-name3">Contact</li>
-      </ul>
+    <div id="hamburger-menu-id" class="hamburger-menu ">
 
-      <address class="hamburger-address">
+      <button id="hamburger-close-button">CLOSE MENU❌</button>
+      
+      <nav class="hamburger-menu-nav">
+        <ul class="hamburger-list">
+          <li class="hamburger-name1">Studio</li>
+          <li class="hamburger-name2">Portfolio</li>
+          <li class="hamburger-name3">Contact</li>
+        </ul>
 
-         <a  class="link-address-tel" href="telto:+11(000)1111111"
-              >+11 (000) 111-11-11</a>
+        <address class="hamburger-address">
+          <a class="link-address-tel" href="telto:+11(000)1111111"
+            >+11 (000) 111-11-11</a
+          >
 
-            <a class="link-addres-mail" href="emailto:info@devstudio.com"
-              >info@devstudio.com</a>
+          <a class="link-addres-mail" href="emailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </address>
 
-           
-          </address>
+        <div class="hamburger-media">
+          <ul class="hamburger-icon-nav">
+            <li class="icon-cell">
+              <!-- insta-->
+              <a href="#">
+                <svg class="icon icon-instagram icon-foot">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
 
-                    <div class="hamburger-media">
-                  <ul class="hamburger-icon-nav">
-                    <li class="icon-cell">
-                      <!-- insta-->
-                      <a href="#"
-                        ><svg class="icon icon-instagram icon-foot">
-                          <use
-                            xlink:href="./images/symbol-defs.svg#icon-instagram"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
+            <li class="icon-cell">
+              <!-- twitter-->
+              <a href="#">
+                <svg class="icon icon-twitter icon-foot">
+                  <use xlink:href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
 
-                    <li class="icon-cell">
-                      <!-- twitter-->
-                      <a href="#">
-                        <svg class="icon icon-twitter icon-foot">
-                          <use
-                            xlink:href="./images/symbol-defs.svg#icon-twitter"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
+            <li class="icon-cell">
+              <!-- face-->
+              <a href="#">
+                <svg class="icon icon-facebook icon-foot">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
 
-                    <li class="icon-cell">
-                      <!-- face-->
-                      <a href="#">
-                        <svg class="icon icon-facebook icon-foot">
-                          <use
-                            xlink:href="./images/symbol-defs.svg#icon-facebook"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-
-                    <li class="icon-cell">
-                      <!-- linkdin-->
-                      <a href="#">
-                        <svg class="icon icon-twitter icon-foot">
-                          <use
-                            xlink:href="./images/symbol-defs.svg#icon-linkedin"
-                          ></use>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+            <li class="icon-cell">
+              <!-- linkdin-->
+              <a href="#">
+                <svg class="icon icon-twitter icon-foot">
+                  <use
+                    xlink:href="./images/symbol-defs.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <!-- HAMBURGER MENU END -->
@@ -134,10 +133,12 @@
 
           <address class="address">
             <a class="link-address" href="emailto:info@devstudio.com"
-              >info@devstudio.com</a>
+              >info@devstudio.com</a
+            >
 
             <a class="link-address" href="telto:+11(000)1111111"
-              >+11 (000) 111-11-11</a>
+              >+11 (000) 111-11-11</a
+            >
           </address>
         </div>
       </section>

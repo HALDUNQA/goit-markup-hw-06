@@ -68,6 +68,128 @@ img {
   height: auto;
 }
 
+/* HAMBURGER MENU */
+.hamburger-container {
+  display: none;
+}
+
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+#hamburger-open-button {
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.open-hamburger-svg {
+  display: none;
+  margin-left: 320px;
+  margin-top: 16px;
+}
+
+.icon-hamburger-icon {
+  display: none;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  fill: var(--common-black);
+  transform: translate(-50%, -50%);
+
+}
+
+.is-open-hamburger {
+  display: flex;
+}
+
+.close-hamburger {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--navy-blue);
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-left: 34 20px;
+}
+
+.close-hamburger-check {
+  display: none;
+  width: 8px;
+  height: 8px;
+  transform: translateY(-10%);
+}
+
+.hamburger-list {
+  display: none;
+  width: 131px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 32px 153px 168px 16px;
+  gap: 40px;
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+
+
+}
+
+.hamburger-name1 {
+  color: var(--ocean);
+}
+
+.hamburger-address {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 16px;
+  gap: 24px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  font-style: normal;
+}
+
+.link-address-tel {
+  color: var(--iris);
+}
+
+.link-addres-mail {
+  color: var(--slate);
+}
+
+.hamburger-media {
+  display: flex;
+  align-items: cecnter;
+  margin-top: 48px;
+  margin-left: 16px;
+}
+
+.hamburger-icon-nav {
+  display: flex;
+  gap: 40px;
+}
+
+/* HAMBURGER MENU END*/
 
 .container {
   width: 1440px;
@@ -341,6 +463,7 @@ img {
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -429,7 +552,7 @@ img {
 .foot-section {
   display: flex;
   height: 312px;
-  justify-content: flex-start;
+ 
   background-color: var(--navy-blue);
 }
 
@@ -447,28 +570,38 @@ img {
   letter-spacing: 3%;
 }
 
+.foot-text-box{
+
+}
 .foot-text {
+    width: 236px;
+  height: 140px;
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: var(--cloud);
   font-weight: 400px;
-  margin-top: 16px;
+  margin-left: 156px;
 }
 
 .foot-group {
   display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 /* MEDIA CSS*/
-.media {
-  margin-left: 120px;
-  margin-top: 100px;
+.media-foot {
+  margin-left: 106px;
+  margin-top: 125px;
   padding-bottom: 30px;
 }
+.foot-media-group{
+  display: flex;
+}
 
-.media>h4 {
+.foot-media-title{
   color: var(--white);
   font-family: var(--font-family);
   font-weight: 500;

@@ -215,7 +215,7 @@
           letter-spacing: 3%;
           font-weight: bold;
           text-transform: uppercase;
-          margin-left: 156px;
+          margin-left: 16px;
           text-decoration: none;
      }
 
@@ -568,14 +568,14 @@
 
      .logo-level {
           margin-top: 101px;
-          margin-left: 96px;
+          margin-left: 108px;
      }
 
      .logo-foot {
           color: var(--cloud);
           font-family: var(--second-family);
           font-size: 18px;
-          font-weight: 700;
+          font-weight: bold;
           line-height: 21px;
           letter-spacing: 3%;
      }
@@ -588,6 +588,7 @@
           color: var(--cloud);
           font-weight: 400px;
           margin-top: 16px;
+          margin-left: 108px;
      }
 
      .foot-group {
@@ -605,21 +606,25 @@
           margin-top: 100px;
           padding-bottom: 30px;
      }
-
-     .media>h4 {
+.media-foot{
+     margin-left: 24px;
+}
+     .foot-media-title {
           color: var(--white);
           font-family: var(--font-family);
           font-weight: 500;
           font-size: 16px;
           line-height: 24px;
           letter-spacing: 2%;
-          margin-bottom: 16px;
+                            margin-top: 116px;
+                            margin-bottom: 16px;
      }
 
      .icon-nav {
           display: flex;
           gap: 16px;
           cursor: pointer;
+          margin-left: 396px;
      }
 
      .icon-cell {
@@ -674,6 +679,7 @@
           display: flex;
           flex-direction: column;
           gap: 16px;
+          margin-left: 30px;
      }
 
      .foot-input {
